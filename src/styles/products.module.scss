@@ -1,0 +1,41 @@
+
+  .search {
+    position: relative;
+
+    input {
+      border: 1px solid grey;
+      outline: none;
+      border-right: none;
+      border-radius: 10px 0 0 10px;
+      padding: 10px;
+    }
+    button {
+      border: 1px solid grey;
+      border-left: none;
+      border-radius: 0 10px 10px 0;
+      background-color: transparent;
+      padding: 10px;
+    }
+  }
+
+  .prods,
+  .product {
+    max-width: 420px;
+    width: 100%;
+    text-align: left;
+  }
+
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  gap: 50px;
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: rgb(38, 37, 37);
+    }
+  }
+}
